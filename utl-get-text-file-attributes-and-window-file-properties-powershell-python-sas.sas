@@ -4,6 +4,8 @@
 
 Get text file attributes and window file properties powershell python sas
 
+Correction: removed comma in utl_varcount macro RJD 2025-08-19
+
 github
 https://tinyurl.com/48kcestb
 https://github.com/rogerjdeangelis/utl-get-text-file-attributes-and-window-file-properties-powershell-python-sas
@@ -560,7 +562,7 @@ parmcards4;
 %macro utl_varcount(dsn)/des="Number of variables";
   %local dsid posv rc;
     %let dsid = %sysfunc(open(&dsn,i));
-    %sysfunc(attrn(&dsid,NVARS));
+    %sysfunc(attrn(&dsid,NVARS))
     %let rc = %sysfunc(close(&dsid));
 %mend utl_varcount;
 ;;;;
