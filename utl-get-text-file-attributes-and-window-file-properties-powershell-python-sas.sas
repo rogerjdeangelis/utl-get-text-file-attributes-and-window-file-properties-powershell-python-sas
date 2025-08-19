@@ -4,6 +4,8 @@
 
 Get text file attributes and window file properties powershell python sas
 
+Correction removed comma in utl_varcount macro
+
 Correction: removed comma in utl_varcount macro RJD 2025-08-19
 
 github
