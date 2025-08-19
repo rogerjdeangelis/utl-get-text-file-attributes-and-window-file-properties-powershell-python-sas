@@ -10,6 +10,8 @@ Get text file attributes and window file properties powershell python sas
     github
     https://tinyurl.com/48kcestb
     https://github.com/rogerjdeangelis/utl-get-text-file-attributes-and-window-file-properties-powershell-python-sas
+    
+    correction removed comma in utl_varcount macro 
 
     CONTENTS
       1 python windows only properties
